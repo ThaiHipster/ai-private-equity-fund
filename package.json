@@ -1,0 +1,24 @@
+{
+  "name": "ai-private-equity-fund",
+  "version": "0.1.0",
+  "description": "AI-powered private equity fund management platform",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "test": "turbo test",
+    "typecheck": "turbo typecheck",
+    "lint": "turbo lint",
+    "clean": "turbo clean"
+  },
+  "devDependencies": {
+    "turbo": "^1.13.0",
+    "prettier": "^3.0.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "packageManager": "pnpm@8.15.0"
+}

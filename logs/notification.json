@@ -1,0 +1,50 @@
+[
+  {
+    "session_id": "03fc4750-940e-45fb-bdec-3dbf8d507bd2",
+    "transcript_path": "/Users/robertalward/.claude/projects/-Users-robertalward-Desktop-Code-Projects-ai-private-equity-fund/03fc4750-940e-45fb-bdec-3dbf8d507bd2.jsonl",
+    "hook_event_name": "Notification",
+    "message": "Claude needs your permission to use Bash"
+  },
+  {
+    "session_id": "1a70872b-4ed1-4b0b-89ba-2007b3998992",
+    "transcript_path": "/Users/robertalward/.claude/projects/-Users-robertalward-Desktop-Code-Projects-ai-private-equity-fund/1a70872b-4ed1-4b0b-89ba-2007b3998992.jsonl",
+    "cwd": "/Users/robertalward/Desktop/Code Projects/ai-private-equity-fund",
+    "hook_event_name": "Notification",
+    "message": "Claude needs your permission to use "
+  },
+  {
+    "session_id": "a943f04b-fb70-48d5-820b-6279bffa2bad",
+    "transcript_path": "/Users/robertalward/.claude/projects/-Users-robertalward-Desktop-Code-Projects-ai-private-equity-fund/a943f04b-fb70-48d5-820b-6279bffa2bad.jsonl",
+    "cwd": "/Users/robertalward/Desktop/Code Projects/ai-private-equity-fund",
+    "hook_event_name": "Notification",
+    "message": "Claude needs your permission to use Bash"
+  },
+  {
+    "session_id": "a27e76e0-7166-42ec-9c5f-2e4343ec8892",
+    "transcript_path": "/Users/robertalward/.claude/projects/-Users-robertalward-Desktop-Code-Projects-ai-private-equity-fund/a27e76e0-7166-42ec-9c5f-2e4343ec8892.jsonl",
+    "cwd": "/Users/robertalward/Desktop/Code Projects/ai-private-equity-fund",
+    "hook_event_name": "Notification",
+    "message": "Claude needs your permission to use Bash"
+  },
+  {
+    "session_id": "a27e76e0-7166-42ec-9c5f-2e4343ec8892",
+    "transcript_path": "/Users/robertalward/.claude/projects/-Users-robertalward-Desktop-Code-Projects-ai-private-equity-fund/a27e76e0-7166-42ec-9c5f-2e4343ec8892.jsonl",
+    "cwd": "/Users/robertalward/Desktop/Code Projects/ai-private-equity-fund",
+    "hook_event_name": "Notification",
+    "message": "Claude needs your permission to use Bash"
+  },
+  {
+    "session_id": "d2643464-9c6b-43e4-a41a-d779a8f98e51",
+    "transcript_path": "/Users/robertalward/.claude/projects/-Users-robertalward-Desktop-Code-Projects-ai-private-equity-fund/d2643464-9c6b-43e4-a41a-d779a8f98e51.jsonl",
+    "cwd": "/Users/robertalward/Desktop/Code Projects/ai-private-equity-fund",
+    "hook_event_name": "Notification",
+    "message": "Claude is waiting for your input"
+  },
+  {
+    "session_id": "d2643464-9c6b-43e4-a41a-d779a8f98e51",
+    "transcript_path": "/Users/robertalward/.claude/projects/-Users-robertalward-Desktop-Code-Projects-ai-private-equity-fund/d2643464-9c6b-43e4-a41a-d779a8f98e51.jsonl",
+    "cwd": "/Users/robertalward/Desktop/Code Projects/ai-private-equity-fund",
+    "hook_event_name": "Notification",
+    "message": "Claude needs your permission to use Bash"
+  }
+]

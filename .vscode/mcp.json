@@ -1,0 +1,21 @@
+{
+	"servers": {
+		"my-mcp-server-29ec3812": {
+			"type": "stdio",
+			"command": "npx",
+			"args": [
+				"-y",
+				"@smithery/cli@latest",
+				"install",
+				"mcp-atlassian",
+				"--client",
+				"vscode",
+				"--profile",
+				"elderly-goldfish-JI51Gu",
+				"--key",
+				"10f4b27e-3714-4aee-babf-c34eeaf7b2be"
+			]
+		}
+	},
+	"inputs": []
+}
