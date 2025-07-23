@@ -2,9 +2,11 @@
 
 if the user asks to activate a conda environment, use the following command:
 
-eval "$(conda shell.bash hook)"  # or eval "$(conda shell.zsh hook)" for zsh
+`eval "$(conda shell.bash hook)"` 
 
-conda activate ctx_test_1
+Then ask the user if they want to use any of the following commands:
+
+conda activate
 
 conda deactivate
 
@@ -13,5 +15,3 @@ conda list
 conda env list
 
 conda info --envs
-
-$ARGUMENTS

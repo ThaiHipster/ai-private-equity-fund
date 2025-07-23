@@ -2,7 +2,7 @@
 
 ## Implementation Best Practices
 
-### 0 — Purpose  
+### 0 — Purpose
 
 These rules ensure maintainability, safety, and QA velocity for test automation.
 **MUST** rules are enforced by CI; **SHOULD** rules are strongly recommended.
@@ -92,9 +92,9 @@ These rules ensure maintainability, safety, and QA velocity for test automation.
 
 ---
 
-## Writing Test Functions Best Practices
+## Writing Functions Best Practices
 
-When evaluating whether a test function you implemented is good or not, use this checklist:
+When evaluating whether a function you implemented is good or not, use this checklist:
 
 1. Can you read the test and HONESTLY easily understand what scenario it's testing? If yes, then stop here.
 2. Does the test have clear setup, action, and assertion phases?
@@ -112,7 +112,7 @@ When evaluating whether a test function you implemented is good or not, use this
 - The extraction significantly improves test readability
 - The shared logic represents a reusable test pattern (like login flows)
 
-## Writing Quality Tests Best Practices
+## Writing Tests Best Practices
 
 When evaluating whether a test you've implemented is good or not, use this checklist:
 
@@ -297,108 +297,3 @@ For commit messages:
 - Prioritize test reliability and maintainability over perfect code organization
 
 **Note:** Adapt these guidelines based on your specific project structure and team preferences. Keep your README.md updated with project-specific testing approaches.
-
----
-
-### Current Project Structure
-
-This is an AI-powered Private Equity Value Creation Platform built as a monorepo using Turbo and pnpm workspaces.
-
-## Planned Architecture (from README.md)
-```
-packages/
-├── api/              # Fastify API server (deals, portfolio, analytics endpoints) - PLANNED
-├── web/              # Next.js 15 dashboard (PE professional interface) - IMPLEMENTED
-├── shared/           # Common types, utilities, and business logic - IMPLEMENTED
-└── api-schema/       # TypeBox-based API contracts - PLANNED
-```
-
-## Current Implementation
-```
-ai-private-equity-fund/
-├── packages/
-│   ├── shared/                  # Common types, utilities, and business logic
-│   │   ├── src/
-│   │   │   ├── index.ts
-│   │   │   ├── schemas/         # Data validation schemas (empty directory)
-│   │   │   ├── types/           # TypeScript type definitions
-│   │   │   │   ├── analysis.ts  # AI analysis types
-│   │   │   │   ├── common.ts    # Shared common types
-│   │   │   │   ├── deals.ts     # Deal management types
-│   │   │   │   ├── financials.ts # Financial data types
-│   │   │   │   ├── index.ts     # Type exports
-│   │   │   │   ├── portfolio.ts # Portfolio management types
-│   │   │   │   └── users.ts     # User and auth types
-│   │   │   └── utils/           # Shared utility functions
-│   │   │       ├── financials.ts # Financial calculations
-│   │   │       ├── financials.spec.ts # Unit tests
-│   │   │       └── index.ts
-│   │   ├── package.json
-│   │   └── tsconfig.json
-│   └── web/                     # Next.js 15 dashboard (PE professional interface)
-│       ├── src/
-│       │   ├── app/             # Next.js App Router
-│       │   │   ├── globals.css
-│       │   │   ├── layout.tsx
-│       │   │   ├── page.tsx     # Dashboard home
-│       │   │   └── portfolio/   # Portfolio management pages
-│       │   │       └── page.tsx
-│       │   ├── components/      # React components
-│       │   │   ├── analysis/    # AI analysis components
-│       │   │   │   ├── AnalysisModeToggle.tsx
-│       │   │   │   └── AnalysisModeToggle.spec.tsx
-│       │   │   └── portfolio/   # Portfolio components
-│       │   │       ├── CompanyCard.tsx
-│       │   │       ├── CompanyCard.spec.tsx
-│       │   │       ├── PortfolioGrid.tsx
-│       │   │       └── PortfolioSummary.tsx
-│       │   ├── lib/             # Client-side utilities
-│       │   │   └── utils.ts
-│       │   └── test/            # Test configuration
-│       │       └── setup.ts
-│       ├── public/              # Static assets (empty directory)
-│       ├── next.config.js
-│       ├── package.json
-│       ├── postcss.config.js
-│       ├── tailwind.config.js
-│       ├── tsconfig.json
-│       └── vitest.config.ts     # Test configuration
-├── node_modules/
-├── logs/                        # Application logs
-│   ├── notification.json
-│   └── pre_tool_use.json
-├── package.json                 # Root package configuration
-├── turbo.json                   # Turbo build configuration
-├── README.md                    # Project documentation
-├── LICENSE
-└── CLAUDE.md                    # This file
-
-# Technology Stack
-- **Build System**: Turbo monorepo with pnpm workspaces
-- **Frontend**: Next.js 15 with TypeScript, Tailwind CSS
-- **Testing**: Vitest for unit/component tests
-- **Type Safety**: TypeScript with shared type definitions
-- **Package Manager**: pnpm
-
-# Available Scripts (from root)
-- `pnpm dev` - Start development servers
-- `pnpm build` - Build all packages
-- `pnpm test` - Run all tests
-- `pnpm typecheck` - TypeScript type checking
-- `pnpm lint` - Run linting
-- `pnpm clean` - Clean build artifacts
-
-# Development Status
-**Currently Implemented:**
-- ✅ Shared type system for deals, portfolio, and financial data
-- ✅ Portfolio management components with company cards and grid views
-- ✅ Analysis mode toggle for different AI analysis types
-- ✅ Component testing setup with Vitest
-- ✅ Responsive UI with Tailwind CSS
-
-**Planned for Future:**
-- 🔄 `packages/api` - Fastify API server
-- 🔄 `packages/api-schema` - TypeBox-based API contracts
-- 🔄 AI-powered deal sourcing and due diligence features
-- 🔄 Real-time portfolio monitoring and analytics
-```

@@ -46,5 +46,26 @@
     "cwd": "/Users/robertalward/Desktop/Code Projects/ai-private-equity-fund",
     "hook_event_name": "Notification",
     "message": "Claude needs your permission to use Bash"
+  },
+  {
+    "session_id": "1ed916e2-0fc8-409c-9107-eed428fcf77d",
+    "transcript_path": "/Users/robertalward/.claude/projects/-Users-robertalward-Desktop-Code-Projects-ai-private-equity-fund/1ed916e2-0fc8-409c-9107-eed428fcf77d.jsonl",
+    "cwd": "/Users/robertalward/Desktop/Code Projects/ai-private-equity-fund",
+    "hook_event_name": "Notification",
+    "message": "Claude needs your permission to use Bash"
+  },
+  {
+    "session_id": "1ed916e2-0fc8-409c-9107-eed428fcf77d",
+    "transcript_path": "/Users/robertalward/.claude/projects/-Users-robertalward-Desktop-Code-Projects-ai-private-equity-fund/1ed916e2-0fc8-409c-9107-eed428fcf77d.jsonl",
+    "cwd": "/Users/robertalward/Desktop/Code Projects/ai-private-equity-fund",
+    "hook_event_name": "Notification",
+    "message": "Claude is waiting for your input"
+  },
+  {
+    "session_id": "497c0d92-29d9-4993-bed1-2dceb1cee52d",
+    "transcript_path": "/Users/robertalward/.claude/projects/-Users-robertalward-Desktop-Code-Projects-ai-private-equity-fund/497c0d92-29d9-4993-bed1-2dceb1cee52d.jsonl",
+    "cwd": "/Users/robertalward/Desktop/Code Projects/ai-private-equity-fund",
+    "hook_event_name": "Notification",
+    "message": "Claude is waiting for your input"
   }
 ]
